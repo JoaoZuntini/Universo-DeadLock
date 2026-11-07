@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funções</title>
+
+  <style>
+    @font-face {
+      font-family: "Valve";
+      src: url("fonts/valve_bd.otf");
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background-color: rgb(22, 21, 21);
+      color: #fff;
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 24px;
+      padding: 0
+    }
+
+    header {
+      width: 100%;
+    }
+
+    nav {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      background-color: #1d1c1c;
+      border-radius: 15px;
+      box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+    }
+
+    #logo_nav {
+      width: 320px;
+      padding: 0 70px;
+      transition: 0.5s;
+    }
+
+    #logo_nav:hover {
+      transform: scale(1.1);
+    }
+
+    .links_nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 50px;
+      flex: 1;
+      margin-right: 50px;
+    }
+
+    .links_nav a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      transition: 0.5s;
+    }
+
+    .links_nav a:hover {
+      transform: scale(1.1);
+    }
+
+    h1 {
+      font-family: "Valve", Arial, sans-serif;
+      font-size: 50px;
+    }
+
+    .card {
+      max-width: 1300px;
+      background-color: #1d1c1c;
+      border: 1px solid #3d3d3d;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 32px 40px;
+      transition: border-color 0.3s;
+    }
+
+    .card:hover {
+      border-color: #f8f8f8;
+    }
+
+    .texto {
+      flex: 0 0 320px;
+      align-self: center;
+    }
+
+    .texto h2 {
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .texto p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #d4d4d4;
+    }
+
+    .card img {
+      flex: 1;
+      min-width: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    footer{
+    gap: 150px;
+    height: 220px;
+    background-color: #1d1c1c;
+    width: 99%;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 200px;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info_footer{
+    display: flex;
+    color: #ffffff;
+    text-align:left;
+    margin: auto;
+    gap: 200px;
+    margin-top: 40px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+
+footer img{
+    width: 250px;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="https://store.steampowered.com/app/1422450/Deadlock/" target="_blank">
+        <img id="logo_nav" src="img/logo_bege_deadlock.png" alt="Logo DeadLock">
+      </a>
+      <div class="links_nav">
+        <a href="./home.html" target="_blank">Início</a>
+        <a href="https://dlbr.gg" target="_blank">Comunidade</a>
+        <a href="https://br.ign.com/deadlock" target="_blank">Notícias</a>
+      </div>
+    </nav>
+  </header>
+
+  <h1>Funções</h1>
+
+  <section class="card">
+    <div class="texto">
+      <h2>FrontLiners</h2>
+      <p>
+        Os FrontLiners são os personagens majoritariamente Tanques que ficam
+        mais avançados e iniciam Fights dentro do mapa. Esses personagens são
+        capazes de durar muito tempo em combate e segurar o time adversário por
+        bastante tempo.<br>
+        <br>Clique na imagem para ver o herói Bily, um dos FrontLiners do jogo DeadLock.
+      </p>
+    </div>
+    <a href="heroi_bily.html" target="_blank">
+        <img src="img/FrontLine.png" alt="FrontLiners">
+    </a>
+  </section>
+
+  <footer>
+        <section class="info_footer" >
+            <div>
+                <img src="img/logo_bege_deadlock.png" alt="Logo DeadLock">
+                <h3>Universo Deadlock</h3>
+                <p>Um site dedicado ao universo do jogo DeadLock</p>
+            </div>
+
+            <div>
+                <h3>Desenvolvimento</h3>
+                
+                
+                    <a href="mailto:joaozuntinib@gmail.com">joaozuntinib@gmail.com</a>
+
+                    <p></p>
+                    
+                    <a href="mailto:fabriciokovu@gmail.com">fabriciokovu@gmail.com</a>
+ 
+            </div>
+            
+            <p id="p_rodape" >Projeto Acadêmico • ADS • 2026</p>
+        </section>
+   </footer>
+</body>
+</html>

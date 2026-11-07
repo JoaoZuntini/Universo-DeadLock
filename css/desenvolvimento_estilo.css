@@ -1,0 +1,140 @@
+#logo_nav_ds{
+    width:220px;
+    padding: 0 70px;
+    transition: 0.5s;
+}
+
+#logo_nav_ds:hover{
+    transform: scale(1.1);
+}
+
+
+nav{
+    background-color: #1d1c1c;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    border-radius: 15px;
+    margin-top: 30px;
+    align-items: center;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+}
+
+
+.links_nav_ds{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    flex: 1;
+    margin-right: 50px;
+}
+
+.links_nav_ds a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.links_nav_ds a:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-color: rgb(22, 21, 21);
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+
+.desenvolvimento{
+    padding: 30px;
+    color: #ffffff;
+}
+
+.desenvolvimento h1{
+    margin-top: 30px;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+    background-color: #1d1c1c;
+    width: 550px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.desenvolvimento h1:hover{
+    transform: scale(0.96);
+}
+
+.item_time_line{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238 221 190 / 100);
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.texto_time_line{
+    text-align: justify;
+    width: 50%;
+}
+
+.imagem_time_line{
+    width: 350px;
+    margin-left: 200px;
+    border-radius: 15px;
+    box-shadow: 20px 0 30px rgb(8, 8, 8, 0.9);
+    margin-top: 30px;
+}
+
+#responsividade_img{
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 190px;
+    box-shadow: 20px 0 30px rgb(8, 8, 8, 0.9);
+    margin-left: 270px;
+}
+
+
+footer{
+    gap: 150px;
+    height: 230px;
+    background-color: #1d1c1c;
+    width: 99%;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 200px;
+    box-shadow: 20px 0 30px rgb(8, 8, 8, 0.9);
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info_footer_est{
+    display: flex;
+    color: #ffffff;
+    text-align:left;
+    margin: auto;
+    gap: 200px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+footer img{
+    width: 200px;
+}

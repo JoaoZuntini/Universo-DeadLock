@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login_estilo.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');</style>
+    <title>Página de Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://store.steampowered.com/app/1422450/Deadlock/" target="_blank" >
+                <img id="logo_nav_login" src="img/logo_bege_deadlock.png" alt="Logo DeadLock" >
+            </a>
+            <div class="links_nav_login">
+                <a href="./home.html" target="_blank" >Início</a>
+                <a href="https://dlbr.gg" target="_blank" >Comunidade</a>
+                <a href="https://br.ign.com/deadlock" target="_blank" >Notícias</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <img id="banner_login" src="img/logo_deadlock_branco.png" alt="Logo DeadLock branco">
+        </div>
+
+        <section class="card_formulario">
+            <form>
+                <legend>Entre com seus dados</legend>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required >
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" pattern="[A-Za-z-0-9]" required >
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite uma senha" minlength="8" required >
+
+                <button id="botao_enviar" type="button" onclick="entrar()" >Entrar</button>
+                
+
+                <p id="mensagem"></p>
+            </form>
+        </section>
+    </main>
+
+     <footer>
+        <section class="info_footer_l" >
+            <div>
+                <img src="img/logo_bege_deadlock.png" alt="Logo DeadLock">
+                <h3>Universo Deadlock</h3>
+                <p>Um site dedicado ao universo do jogo DeadLock</p>
+            </div>
+
+            <div>
+                <h3>Desenvolvimento</h3>
+                
+                <a href="mailto:joaozuntinib@gmail.com">joaozuntinib@gmail.com</a>
+
+                <p></p>
+
+                <a href="mailto:fabriciokovu@gmail.com">fabriciokovu@gmail.com</a>
+            </div>
+            
+            <p id="p_rodape" >Projeto Acadêmico • ADS • 2026</p>
+        </section>
+   </footer>
+
+   <script src="./js/login_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+#logo_nav_est{
+    width: 190px;
+    padding: 0 70px;
+    transition: 0.5s;
+}
+
+#logo_nav_est:hover{
+    transform: scale(1.1);
+}
+
+nav{
+    display: flex;
+    background-color: #1d1c1c;
+    width: 100%;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 30px;
+    align-items:center;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+}
+
+.links_nav_est{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    flex: 1;
+    margin-right: 50px;
+}
+
+.links_nav_est a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.links_nav_est a:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-image:url(../img/fundo_est.png);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tabela_est{
+    color:#ffffff;
+    text-align: center;
+    background-color: #1d1c1c;
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    margin-top: 40px;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+}
+
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td,th{
+    border: 2px solid white;
+    padding: 15px;
+}
+
+tr{
+    transition: 0.5s;
+}
+
+tr:hover{
+    transform: scale(1.1);
+}
+
+#paragrafo_est{
+    font-weight: bold;
+}
+
+footer{
+    gap: 150px;
+    height: 260px;
+    background-color: #1d1c1c;
+    width: 99%;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info_footer_est{
+    display: flex;
+    color: #ffffff;
+    text-align:left;
+    margin: auto;
+    gap: 200px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+
+footer img{
+    width: 300px;
+}
+
+.ranking_est{
+    color: #ffffff;
+    background-color: #1d1c1c;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: auto;
+    height: 450px;
+    box-shadow: 10px 15px 30px rgb(8, 8, 8, 0.9);
+    
+}
+
+.item_ranking{
+    width: 80%;
+    margin: auto;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+hr{
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: auto;
+    transition: 0.5s;
+    
+}
+
+hr:hover{
+    transform: scale(0.97);
+    box-shadow: 0 0 10px rgb(238 221 190 / 100);
+}
+
+#norte{
+    width: 60%;
+}
+
+#europa{
+    width: 28.9%;
+}
+
+#asia{
+    width: 4.1%;
+}
+
+#sul{
+    width: 3.7%;
+}
+
+.botao_est{
+    display: flex;
+    
+    background-color: rgb(238 221 190 / 100);
+    color: #000000;
+    text-decoration: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 220px;
+    align-items: center;
+    margin: 50px auto;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.botao_est:hover{
+    transform: scale(1.1);
+    box-shadow: 30px 30px 30px rgb(8, 8, 8, 0.9);
+}
+
+@media (max-width: 600px){
+
+    #logo_nav_est{
+        width: 120px;
+        padding: 0 20px;
+    }
+
+    nav{
+        height: auto;
+        padding: 15px 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links_nav_est{
+        gap: 20px;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .tabela_est{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 30px;
+    }
+
+    table{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    td, th{
+        padding: 8px;
+    }
+
+    .ranking_est{
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .item_ranking{
+        width: 85%;
+    }
+
+    h2{
+        padding-top: 25px;
+    }
+
+    #norte{
+        width: 60%;
+    }
+
+    #europa{
+        width: 28.9%;
+    }
+
+    #asia{
+        width: 4.1%;
+    }
+
+    #sul{
+        width: 3.7%;
+    }
+
+    .botao_est{
+        width: 200px;
+        height: 45px;
+        margin: 40px auto;
+    }
+
+    footer{
+        width: 90%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .info_footer_est{
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    footer img{
+        width: 200px;
+    }
+
+}

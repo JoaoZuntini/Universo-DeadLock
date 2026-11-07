@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contatos_estilo.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');</style>
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://store.steampowered.com/app/1422450/Deadlock/" target="_blank" >
+                <img id="logo_nav_contatos" src="img/logo_bege_deadlock.png" alt="Logo DeadLock">
+            </a>
+            <div class="links_nav_contatos" >
+                <a href="./home.html" target="_blank" >Início</a>
+                <a href="https://dlbr.gg" target="_blank" >Comunidade</a>
+                <a href="https://br.ign.com/deadlock" target="_blank" >Notícias</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card_contatos" >
+            <form>
+                <legend>Entre em contato conosco</legend>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" pattern="[A-Za-zÀ-ÿ ]+" >
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" required >
+
+                <label for="motivos">Selecione o motivo do contato</label>
+                <select id="motivos" required >
+                    <option value="">Selecione</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Digite sua mensagem..." minlength="10"></textarea>
+
+                <button id="botao_contatos" type="button" onclick="btn_enviar()" >Enviar</button>
+            </form>
+
+            <p id="mensagem_contato" ></p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="info_footer_c" >
+            <div>
+                <img src="img/logo_bege_deadlock.png" alt="Logo DeadLock">
+                <h3>Universo Deadlock</h3>
+                <p>Um site dedicado ao universo do jogo DeadLock</p>
+            </div>
+
+            <div>
+                <h3>Desenvolvimento</h3>
+                
+                <a href="mailto:joaozuntinib@gmail.com">joaozuntinib@gmail.com</a>
+
+                <p></p>
+
+                <a href="mailto:fabriciokovu@gmail.com">fabriciokovu@gmail.com</a>
+            </div>
+            
+            <p id="p_rodape" >Projeto Acadêmico • ADS • 2026</p>
+        </section>
+   </footer>
+
+   <script src="./js/contatos_script.js"></script>
+</body>
+</html>

@@ -190,18 +190,7 @@ li img {
     border-color: #3d2a66;
 }
 
-.card-video {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1a1a1a;
-    border-radius: 15px;
-    min-height: 250px;
-    min-width: 0;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
+
 
 .card-video video {
     width: 100%;
